@@ -1,0 +1,92 @@
+*{
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(71, 71, 71);
+    border: 1px black solid;
+    font-size: 25px;
+}
+
+.flexrow
+{
+    display: flex;
+}
+
+
+#title
+{
+    font-size: 40px;
+    color: orange;
+
+}
+
+
+.inputs
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+option
+{
+    background-color: black;
+    color: white;
+}
+
+.whitebg
+{
+    background-color:  white;
+}
+
+
+label
+{
+    color: white;
+}
+
+
+.size
+{
+    height: 30px;
+    width: 300px;
+}
+
+
+.input
+{
+    font-size: 20px;
+    box-shadow: 4px 4px black;
+    margin-bottom: 5px;
+}
+
+.input:hover
+{
+    background-color: darkgrey;
+}
+
+
+
+#comments
+{
+    width: 300px;
+}
